@@ -1,0 +1,236 @@
+[
+    {
+        "id":1,
+        "header":"A Car Loan Solution",
+        "title":"Custom-Built FinTech Software for Car Loans",
+        "industry":"Finance",
+        "country":"United Kingdom",
+        "teamSize":"4 specialists",
+        "duration":"12+ months",
+        "budjet":"NDA",
+        "technology":"React / .NET"
+    },
+    {
+        "id":2,
+        "header":"An Investment Technology Solution",
+        "title":"Pricing-Related Capabilities for the FinTech Ecosystem of a Financial Boutique",
+        "industry":"Finance",
+        "country":"United Kingdom",
+        "teamSize":"4 specialists",
+        "duration":"12 months",
+        "budjet":"200k - 500k USD",
+        "technology":"python / React"
+    },
+    {
+        "id":3,
+        "header":"An advanced FinTech solution",
+        "title":"A set of FinTech tools with extended capabilities delivered for an EU-based customer operating worldwide.",
+        "industry":"Finance",
+        "country":"Lithuania",
+        "teamSize":"25 specialists",
+        "duration":"12+ months",
+        "budjet":"NDA",
+        "technology":"PHP / Symfony / Kubernetes / Python / React.js / MySQL / PostgreSQL / REST APIs /VMWare /Docker /Ansible /Terraform /Harbor /Toran /Verdaccio /PHPUnit /Mockery /Codeception /Jest /Elasticsearch /RabbitMQ"
+    },
+    {
+        "id":4,
+        "header":"Fintech Portal to Compare Utility Payment Rates",
+        "title":"A digital platform aimed at comparing tariff plans of companies that provide various communication, utilities, transport, and other services, as well as concluding agreements with individual companies.",
+        "industry":"Finance",
+        "country":"Germany",
+        "teamSize":"5 specialists",
+        "duration":"36+ months",
+        "budjet":"200k - 500k USD",
+        "technology":"Angular /  PHP / .NET"
+    },
+    {
+        "id":5,
+        "header":"Digital cryptocurrency wallet",
+        "title":"Application for buying, selling, storing, and exchanging cryptocurrencies.",
+        "industry":"Finance",
+        "country":"United Kingdom",
+        "teamSize":"4 specialists",
+        "duration":"24+ months",
+        "budjet":"200k - 500k USD",
+        "technology":"Kotlin / Coroutines / AAC / Protobuf"
+    },
+    {
+        "id":6,
+        "header":"Investment & digital pension solutions",
+        "title":"A platform for investing in a pension, which cooperates with a Swiss bank and promises not only to store clients’ savings but also to increase them.",
+        "industry":"Finance",
+        "country":"Switzerland",
+        "teamSize":"10 specialists",
+        "duration":"24 months",
+        "budjet":"200k - 500k USD",
+        "technology":"scala / python / Angular"
+    },
+    {
+        "id":7,
+        "header":"Payment & acquiring Systems",
+        "title":"An internet acquiring system aimed at enabling online sales organizations to accept payments made by plastic cards.",
+        "industry":"Finance",
+        "country":"Latvia",
+        "teamSize":"11 specialists",
+        "duration":"12 months",
+        "budjet":"200k - 500k USD",
+        "technology":" Python / React.js"
+    },
+    {
+        "id":8,
+        "header":"System for issuing short-term Loans",
+        "title":"A microloans product by a European company, which can be customized meeting the requirements of any country’s legislation.",
+        "industry":"Finance",
+        "country":"Latvia",
+        "teamSize":"21 specialists",
+        "duration":"39 months",
+        "budjet":"200k - 500k USD",
+        "technology":" PHP / Symfony / MySQL"
+    },
+    {
+        "id":9,
+        "header":"Advanced BNPL Solution for E-Commerce Business",
+        "title":"A buy-now-pay-later solution developed for a FinTech company. The resulting tool is used for the customer’s eCommerce business initiatives.",
+        "industry":"Finance",
+        "country":"United Kingdom",
+        "teamSize":"41 specialists",
+        "duration":"13 months",
+        "budjet":"NDA",
+        "technology":"Java /Spring Boot / Hibernate"
+    },
+    {
+        "id":10,
+        "header":"Developing API Strategy for Insurance Industry",
+        "title":"A comprehensive API strategy for a global insurance company. As a result, the customer’s business has been optimized and boosted.",
+        "industry":"Finance",
+        "country":"France",
+        "teamSize":"14 specialists",
+        "duration":"2 months",
+        "budjet":"NDA",
+        "technology":"Architecture Assessment /System vulnerability audit / QA practices audit / Business "
+    },
+    {
+        "id":11,
+        "header":"Governance, Risk, Compliance and Financial Reporting Advisory",
+        "title":"An application that automates processing and analyzes all the incoming regulating documents.",
+        "industry":"Finance",
+        "country":"France",
+        "teamSize":"18 specialists",
+        "duration":"8 months",
+        "budjet":"200k - 500k USD",
+        "technology":".NET / Angular / Scala / Python / Apacha"
+    },
+    {
+        "id":12,
+        "header":"Payment platform",
+        "title":"A mobile application that serves for the purchase of goods by installments in partner chain stores of a Brazil online bank.",
+        "industry":"Finance",
+        "country":"France",
+        "teamSize":"9 specialists",
+        "duration":"10 months",
+        "budjet":"50k - 200k USD",
+        "technology":"Swift / Kotlin"
+    }
+ ,
+    {
+        "id":"13",
+        "header":"A Web-Based Traffic Light Controller",
+        "title":"A Web App for Controlling Traffic Lights in Smart Connected Cities",
+        "industry":"Logistics",
+        "country":"United Kingdom",
+        "teamSize":"1 specialists",
+        "duration":"12 months",
+        "budjet":"NDA",
+        "technology":"c++"
+    }
+ ,
+    {
+        "id":"14",
+        "header":"Telecom CRM Modules",
+        "title":"New Functionalities Added to a CRM System for Telecom",
+        "industry":"Telecom",
+        "country":"United Kingdom",
+        "teamSize":"10 specialists",
+        "duration":"12 months",
+        "budjet":"up to 330k USD",
+        "technology":".NET / Angular / MSSQL / C# / RxJs /TypeScript"
+    },
+    {
+        "id":"15",
+        "header":"Video streaming & smart TV solution",
+        "title":"An application that allows watching a large number of TV channels, as well as movies and TV series in digital and HD quality. It also can be called ‘online cinema’.",
+        "industry":"Media & Entertainment",
+        "country":"Belgium",
+        "teamSize":"26 specialists",
+        "duration":"36 months",
+        "budjet":"200k - 500k USD",
+        "technology":"Java / RxJava / Kotlin / Dagger / Swift 4 /PostgreSQL"
+    },
+    {
+        "id":"16",
+        "header":"An Investment Technology Solution",
+        "title":"Pricing-Related Capabilities for the FinTech Ecosystem of a Financial Boutique",
+        "industry":"Finance",
+        "country":"United Kingdom",
+        "teamSize":"4 specialists",
+        "duration":"12 months",
+        "budjet":"200k - 500k USD",
+        "technology":"Python / React"
+    },
+    {
+        "id":"17",
+        "header":"Notification tool to inform users about errors ",
+        "title":"Development of a platform for notifying users of errors, malfunctions, and services in the Mercedes system.",
+        "industry":"Finance",
+        "country":"Latvia",
+        "teamSize":"1 specialists",
+        "duration":"2 months",
+        "budjet":"Up to 50k usd",
+        "technology":".NET Core / React / Docker / RabbitMQ / MS SQL / Reddis / ELK"
+    },
+    {
+        "id":"18",
+        "header":"An Enterprise-Level Mobile App for Direct Marketing",
+        "title":"An iOS/Android app for a direct marketing company that operates in such fields as health, wellness, and beauty. The app enables the customer to cooperate with its partners.",
+        "industry":"Enterprise",
+        "country":"Netherlands",
+        "teamSize":"8 specialists",
+        "duration":"7+ months",
+        "budjet":"NDA",
+        "technology":"Middleware API / Storyblok CMS / React Native"
+    },
+    {
+        "id":"19",
+        "header":"A CRM System for a Research Agency",
+        "title":"CRM System to Optimize Business Flows of a UK-Based Marketing Research Agency",
+        "industry":"Retail",
+        "country":"United Kingdom",
+        "teamSize":"2 specialists",
+        "duration":"32 months",
+        "budjet":"NDA",
+        "technology":" BA / QA"
+    },
+    {
+        "id":"20",
+        "header":"Marketing analytics platform",
+        "title":"A marketing analytics platform that allows conducting investigations on customer behavior.",
+        "industry":"Retail",
+        "country":"France",
+        "teamSize":"3 specialists",
+        "duration":"12 months",
+        "budjet":"200k - 500k USD",
+        "technology":" Angular / PHP / Symfony"
+    },
+    {
+        "id":"21",
+        "header":"eCommerce Presence for a Telecom Provider",
+        "title":"eCommerce presence run by a leading telecom provider was successfully covered by an end-to-end QA project",
+        "industry":"Telecom",
+        "country":"Germany",
+        "teamSize":"11 specialists",
+        "duration":"12 months",
+        "budjet":"NDA",
+        "technology":" Kotlin / Swift / Java / Spring"
+    }
+ 
+]
