@@ -93,8 +93,7 @@ case_page.innerHTML=`
     <h2>${Projectresults}</h2>
     <p>${projectRes}</p>
     <br>
-    <p>By using <a href="https://www.alchemy.com/">Alchemy</a>, we were able to query NFT data, make faster transactions and deliver a wallet experience to the end users.<br/><br/> Now, fans can purchase tickets, have a token-gated access
-        to the event, and use the NFT to have access to communities and special experiences before, during and after the event.</p>
+   
     <h2>Working with Threed</h2>
     <p>
         <blockquote class="italic">&quot;We launched a revamped version of our platform in <span class="highlight-text">less than a month</span>. From design to implementation, this team has done an incredible job with us.&quot; - Leandro Pontes • CEO</blockquote>

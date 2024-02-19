@@ -157,14 +157,14 @@
     },
     {
         "id":"15",
-        "header":"Video streaming & smart TV solution",
-        "title":"An application that allows watching a large number of TV channels, as well as movies and TV series in digital and HD quality. It also can be called ‘online cinema’.",
-        "industry":"Media & Entertainment",
-        "country":"Belgium",
-        "teamSize":"26 specialists",
-        "duration":"36 months",
-        "budjet":"200k - 500k USD",
-        "technology":"Java / RxJava / Kotlin / Dagger / Swift 4 /PostgreSQL"
+        "header":"App for organizing online training",
+        "title":"Work on a system for managing a training concept including online and classroom training, as well as courses for teachers and blended learning.",
+        "industry":"Others",
+        "country":" Finland",
+        "teamSize":"4 specialists",
+        "duration":"15 months",
+        "budjet":"50k - 200k USD",
+        "technology":"Angular / PHP / Laravel"
     },
     {
         "id":"16",
@@ -231,6 +231,86 @@
         "duration":"12 months",
         "budjet":"NDA",
         "technology":" Kotlin / Swift / Java / Spring"
+    },
+    {
+        "id":"22",
+        "header":"A Royalty Management Platform",
+        "title":"A complex platform for the music industry, aimed at calculating and managing artists' royalties and streamlining interactions.",
+        "industry":"Media & Entertainment",
+        "country":"United Kingdom",
+        "teamSize":"31 specialists",
+        "duration":"10+ months",
+        "budjet":"NDA",
+        "technology":" PHP / Vue.js / MySQL / Redis / Elasticsearch / AWS"
+    },
+    {
+        "id":"23",
+        "header":"A Feature-Rich eCommerce Website",
+        "title":"Design and tech upgrade project carried out for a major retailer ",
+        "industry":"eCommerce",
+        "country":"United Kingdom",
+        "teamSize":"5 specialists",
+        "duration":"18+ months",
+        "budjet":"200k - 500k USD",
+        "technology":" React / NodeJS / Typescript / AWS"
+    },
+    {
+        "id":"24",
+        "header":"A multiplatform TeleMedicine solution",
+        "title":"The pre-existing TeleMedicine solution was enhanced with advanced functionality and adjusted to KVB regulations by Threed's team for the further launch of the app in the German market.",
+        "industry":"Healthcare",
+        "country":"Germany",
+        "teamSize":"8 specialists",
+        "duration":"4 months",
+        "budjet":"200k - 500k USD",
+        "technology":" Java / React / Redux / iOS / Android"
+    },
+    {
+        "id":"25",
+        "header":"A Real Estate Web Portal",
+        "title":"A Web marketplace for commercial real estate",
+        "industry":"Real Estate",
+        "country":"United Kingdom",
+        "teamSize":"5 specialists",
+        "duration":"40 months",
+        "budjet":"360k USD",
+        "technology":"PHP / Symfony"
+    },
+    {
+        "id":"26",
+        "header":"QA and Development of a Betting and Gaming Project",
+        "title":"A Testing and Development Initiative Carried out for a Sports Betting and iGaming Company",
+        "industry":"iGaming",
+        "country":"United Kingdom",
+        "teamSize":"9 specialists",
+        "duration":"13 months",
+        "budjet":"up to 570k usd",
+        "technology":"C# / .NET / Xamarin / Ruby /  Postman / Swagger /  WPF / XAML / LINQ /  REST/JSON  /  Jenkins / TestRail /  Allure"
+    },
+    {
+        "id":"27",
+        "header":"A Payment Clearing Solution",
+        "title":"An All-in-One Payment Clearing System Delivered by Threed",
+        "industry":"FinTech",
+        "country":"United Kingdom",
+        "teamSize":"3 specialists",
+        "duration":"11 months",
+        "budjet":"NDA",
+        "technology":"Node.js / React / Vue.js / C#"
+    },
+    {
+        "id":"28",
+        "header":"A Vehicle Parking Solution",
+        "title":"A Modern, Convenient, and Highly Usable Parking Solution",
+        "industry":"Automotive",
+        "country":"United Kingdom",
+        "teamSize":"10 specialists",
+        "duration":"6 months",
+        "budjet":"200k - 500k USD",
+        "technology":"Vue / Nuxt.js / PHP"
     }
  
+ 
 ]
+
+

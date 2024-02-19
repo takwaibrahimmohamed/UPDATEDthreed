@@ -72,7 +72,7 @@ popUpfilterSideMenu.forEach((item,i)=>{
                  let {id,header,title,industry,country,teamSize,duration,budjet,technology}=product
           if(id == i+1){
             popUpMainContent.innerHTML=`
-            <h3>${header}</h3>
+            <h3> ${header}</h3>
             <p class="filterPopupTitle">${title}</p>
             <div class="filterPopupRow">
             <div class="filterPopupCell">
@@ -92,12 +92,12 @@ popUpfilterSideMenu.forEach((item,i)=>{
                 <p>${duration}</p>
             </div>
             <div class="filterPopupCell">
-            <h6>budjet</h6>
+            <h6>budget</h6>
             <p>${budjet}</p>
             </div>
             </div>
             <div class="filterPopupteqhnology">
-            <h6>tecknology</h6>
+            <h6>Technologies</h6>
             <p>${technology}</p>
             </div>
             `
@@ -107,45 +107,26 @@ popUpfilterSideMenu.forEach((item,i)=>{
          
         }
         filterPopupOverlay.style.opacity="1"
-        filterPopupContent.style.bottom="5%"
+        filterPopupContent.style.bottom="50%"
+        filterPopupContent.style.transform="translatY(50%)"
         filterPopupOverlay.style.visibility="visible"
-        filterPopupOverlay.style.zIndex="111"
+        filterPopupOverlay.style.zIndex="113"
        
     
     })
 })
+let nonedata = document.querySelector(".nonedata")
+let noneBtn = document.querySelectorAll(".noneBtn")
+// noneBtn.forEach((item)=>{
+//   item.addEventListener(("click"),()=>{
+//     if(nonedata.style.display == "none"){
+//       nonedata.style.display="flex"
+//     }
+    
+//   })
+// })
 
-// popUp.filterCompany
 
-// croussal
-const wrapper = document.querySelector('.wrapper')
-
-let pressed = false
-let startX = 0
-
-wrapper.addEventListener('mousedown', function (e) {
-  pressed = true
-  startX = e.clientX
-  // this.style.cursor = 'grabbing'
-})
-
-wrapper.addEventListener('mouseleave', function (e) {
-  pressed = false
-})
-
-window.addEventListener('mouseup', function (e) {
-  pressed = false
-  // wrapper.style.cursor = 'grab'
-})
-
-wrapper.addEventListener('mousemove', function (e) {
-  if(!pressed) {
-   return
-  }
-
-  this.scrollLeft += startX - e.clientX
-})
-// croussal
 
 // start filter 
 let btnItem=document.querySelectorAll(".filterButtons button")
@@ -157,13 +138,24 @@ btnItem.forEach((btn)=>{
     })
     btn.className="active"
     let value=btn.textContent
+ 
+  
+    
     filterCart.forEach((cart)=>{
      cart.style.display="none"
      if(cart.getAttribute('data-filter') == value || value=="all"){
      
       cart.style.display="flex"
+      nonedata.style.display="none"
      }
     })
+   
+    if(value.includes( "Aviation")  ||value.includes( "Manufacturing")){
+      console.log("nonedata2")
+   
+      nonedata.style.display="flex"
+    }
+    
   })
 })
 // end filter 
