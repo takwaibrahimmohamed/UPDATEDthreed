@@ -9,17 +9,26 @@
   right: 0;
   width:70px;
   height:70px;
+  animation: moveApear 3s infinite alternate;
   
 }
 .title-span-engaging:hover .bear{
   display: none;
+}
+@keyframes moveApear{
+  0%{
+left: 0;
+  }
+  100%{
+left: 30px;
+  }
 }
 @media (max-width:766px){
   .bear{
     top: -13px;
     left: 30px;
     width: 40px;
-    transform: rotate(8deg)
+    /* transform: rotate(8deg) */
   }
 }
 /* bear  */
@@ -835,7 +844,7 @@ border-radius: 10px;
   .wrapper img{
 height:100%;
 width: 100%;
-object-fit: fill;
+object-fit: cover;
 /* background-color: #222; */
 /* border-radius: 15px; */
 /* overflow: hidden; */
