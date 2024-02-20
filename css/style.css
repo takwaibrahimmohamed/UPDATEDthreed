@@ -1,5 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+/* bear  */
+.bear{
+  position: absolute;
+  top: -16px;
+  z-index: 0;
+  right: 0;
+  width:70px;
+  height:70px;
+  
+}
+.title-span-engaging:hover .bear{
+  display: none;
+}
+@media (max-width:766px){
+  .bear{
+    top: -13px;
+    left: 30px;
+    width: 40px;
+    transform: rotate(8deg)
+  }
+}
+/* bear  */
+
+/* start heregenatic  */
+.heregenatic{
+  
+}
+.heregenatic .hero_graphic{
+width: 60%;
+margin: 10px auto;
+}
+@media (max-width: 779px){
+  .heregenatic .hero_graphic{
+    width: 100%;
+    /* margin: 20px auto; */
+    }
+}
+/* @media (min-width: 480px) and (max-width: 781px)
+{
+ 
+} */
+/* end heregenatic  */
+
+@media (max-width: 479px){
+  .max-w-7xl.text-center{
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .how-heading-grow{
+    font-size: 1.25rem !important;
+  }
+}
+/* end responsive alltext in website  */
+
 @media (max-width: 479px)
 {
   .title-ideas-lottie
@@ -648,16 +703,17 @@ margin-top: 150px;
   background-color: #00000091;
   z-index: 110;
   width: 100%;
-  height: 106%;
+  height: 99%;
 
  
 }
 .croussal{
 
-    margin-bottom: -24px !important;
+    margin-bottom: 10px !important;
     display: flex;
    
     overflow-x: hidden;
+    overflow: hidden;
 }
 
 .recentWorkSec .portfol{
@@ -682,6 +738,7 @@ margin-top: 150px;
   max-width: none;
   margin-right: 10px;
   border-radius: 50%;
+
 }
 .recentWorkSec .portfol .recentWork {
   font-size: 50px;
@@ -697,6 +754,7 @@ margin-top: 150px;
 /* responve  */
 @media screen and (max-width: 479px)
 {
+
   .recentWorkSec .portfol {
     width: 277px;
     margin-top: 0;
@@ -716,21 +774,26 @@ margin-top: 150px;
 
 .wrapper {
     display: flex;
-   
+    /* overflow-y: hidden; */
     width: 100%;
-  animation: sliderCrousal 28s linear infinite;
-  animation-delay: -28s;
   
+  animation: sliderCrousal 100s linear infinite;
+  animation-delay: -100s;
+  /* width: 60 !important; */
+    height: 100% !important;
     /* scroll-snap-type: x; */
     cursor: pointer !important;
     /* scroll-behavior: smooth;
     scrollbar-width: none;  */
     /* for firefox */
     /* border-radius: 15px; */
+    width: 7000px !important;
+    height: 420px !important;
   }
   .secWrapper{
-    animation: sliderCrousal2 28s linear infinite;
-    animation-delay: -14s;
+    animation: sliderCrousal2 100s linear infinite;
+    animation-delay: -50s;
+   
     
   }
   .wrapper::-webkit-scrollbar { /* for chrome */
@@ -738,16 +801,18 @@ margin-top: 150px;
   }
   
   .seccrousal .wrapper{
-    animation: sliderCrousal 30s linear infinite;
-    animation-delay: -30px;
+    animation: sliderCrousal 120s linear infinite;
+    animation-delay: -120px;
   }
   .seccrousal .secWrapper{
-    animation: sliderCrousal2 30s linear infinite;
-    animation-delay: -15s;
+    animation: sliderCrousal2 120s linear infinite;
+    animation-delay: -60s;
   }
   .slider {
-    /* min-width: calc(50% - .5rem); */
-    aspect-ratio:  1.45455 / 1;
+    
+    width: 700px !important;
+    height: 420px !important;
+    /* aspect-ratio:  1.45455 / 1; */
     background: #222;
     display: flex;
     justify-content: center;
@@ -757,18 +822,31 @@ margin-top: 150px;
     scroll-snap-align: start;
     font-weight: 600;
     user-select: none;
-    width: 2910px !important;
-    height: 420px !important;
+    /* width: 100% !important; */
+    /* height: 100% !important; */
     border-radius: 10px;
-  }
-  .slider img{
-height: 100%;
-width: 100%;
+    overflow: hidden;
+    box-shadow: 1px 1px 19px rgba(0, 0, 0, .07);
+    border:10px solid #252121 !important;
+margin: 10px;
+border-radius: 10px;
 
   }
+  .wrapper img{
+height:100%;
+width: 100%;
+object-fit: fill;
+/* background-color: #222; */
+/* border-radius: 15px; */
+/* overflow: hidden; */
+/* background-color: red; */
+  }
   @media (max-width: 500px){
+    .wrapper{
+      height: 300px !important;
+    }
     .slider{
-        height: 220px !important;
+        width: 320px !important;
     }
   }
 /* start croussal  */
@@ -943,8 +1021,8 @@ animation-delay:-40s;
   /* responsive  */
   @media (max-width: 450px){
     .animiTitle{
-        font-size: 34px;
-        line-height: 45px;
+        font-size: 18px;
+        line-height: 30px;
     }
     .your_business{
         display: none;
