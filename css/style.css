@@ -38,14 +38,14 @@
 .title-span-engaging:hover .bear{
   display: none;
 }
-@keyframes moveApear2{
+/* @keyframes moveApear2{
   0%{
     top: -15px;
   }
   100%{
     top:-6px
   }
-}
+} */
 @keyframes moveApear{
   0%{
 top: -6px;
