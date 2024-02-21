@@ -31,30 +31,21 @@
 }
 .bear2{
   right: 55% !important;
-  /* animation: moveApear2 2s infinite alternate; */
-  /* animation-delay: 2s; */
-  /* top: -10px; */
+
 }
 .title-span-engaging:hover .bear{
   display: none;
 }
-/* @keyframes moveApear2{
-  0%{
-    top: -15px;
-  }
-  100%{
-    top:-6px
-  }
-} */
+
 @keyframes moveApear{
   0%{
 top: -6px;
-/* right: 0%; */
+
   }
 
   100%{
     top: -17px;
-    /* right:25%; */
+    
       }
 
 }
