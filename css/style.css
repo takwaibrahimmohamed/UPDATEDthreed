@@ -2,14 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 /* bear  */
+.wowBtn{
+  background-color:transparent !important;
+  /* color: #F44336 !important; */
+  text-align: center;
+  -webkit-text-fill-color: white !important;
+  background-image: none ;
+  -webkit-background-clip:content-box !important; 
+  background-clip: content-box !important;
+
+
+}
+.wowBtn button{
+  background-color:#0e1116 !important;
+
+
+
+}
 .bear{
   position: absolute;
   top: -16px;
   z-index: 0;
-  right: 0;
+  right: 20%;
   width:70px;
   height:70px;
-  animation: moveApear 3s infinite alternate;
+  animation: moveApear 1s infinite alternate;
   
 }
 .title-span-engaging:hover .bear{
@@ -17,16 +34,16 @@
 }
 @keyframes moveApear{
   0%{
-left: 0;
+top: -6px;
   }
   100%{
-left: 30px;
+top: -16px;
   }
 }
 @media (max-width:766px){
   .bear{
     top: -13px;
-    left: 30px;
+    left: 20%;
     width: 40px;
     /* transform: rotate(8deg) */
   }
