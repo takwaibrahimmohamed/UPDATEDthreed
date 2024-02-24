@@ -137,12 +137,18 @@ margin: 10px auto;
 /* end heregenatic  */
 
 @media (max-width: 479px){
+ 
   .max-w-7xl.text-center{
     font-size: 17px;
     line-height: 1.5;
   }
   .how-heading-grow{
     font-size: 1.25rem !important;
+  }
+}
+@media (max-width: 778px){
+  .hideTextInMobile{
+    display: none;
   }
 }
 /* end responsive alltext in website  */
@@ -1080,13 +1086,13 @@ height: 6px;
   }
 .services_inner_list .list2{
   display: flex;
-animation: movingleftRight 40s linear infinite;
-animation-delay:-40s;
+animation: movingleftRight 100s linear infinite;
+animation-delay:-100s;
 
 }
 .services_inner_list .list2:nth-child(2){
-  animation: movingleftRight2 40s linear infinite;
-  animation-delay:-20s;
+  animation: movingleftRight2 100s linear infinite;
+  animation-delay:-50s;
 }
  .sv-main .service_name {
     display: flex;

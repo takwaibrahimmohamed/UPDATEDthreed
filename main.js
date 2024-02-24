@@ -115,8 +115,8 @@ popUpfilterSideMenu.forEach((item,i)=>{
     
     })
 })
-let nonedata = document.querySelector(".nonedata")
-let noneBtn = document.querySelectorAll(".noneBtn")
+// let nonedata = document.querySelector(".nonedata")
+// let noneBtn = document.querySelectorAll(".noneBtn")
 // noneBtn.forEach((item)=>{
 //   item.addEventListener(("click"),()=>{
 //     if(nonedata.style.display == "none"){
@@ -146,15 +146,15 @@ btnItem.forEach((btn)=>{
      if(cart.getAttribute('data-filter') == value || value=="all"){
      
       cart.style.display="flex"
-      nonedata.style.display="none"
+      // nonedata.style.display="none"
      }
     })
    
-    if(value.includes( "Aviation")  ||value.includes( "Manufacturing")){
-      console.log("nonedata2")
+    // if(value.includes( "Aviation")  ||value.includes( "Manufacturing")){
+    //   console.log("nonedata2")
    
-      nonedata.style.display="flex"
-    }
+    //   nonedata.style.display="flex"
+    // }
     
   })
 })

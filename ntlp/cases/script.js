@@ -108,7 +108,7 @@ case_page.innerHTML=`
                 <div class="flex gap-2 mt-12 text-sm xl:mt-14">
                     <div class="flex justify-center flex-1 gap-5 font-hanken">
                         <a class="btn btn-default" href="../../index.html#pricing">Pricing</a>
-                        <button class="btn-outline"><a href="#">Book an intro call</a></button></div>
+                        <button class="btn-outline" style="font-size:20px"> <a href="https://wa.me/60126360237?text=I%20am%20interested%20in%20learning%20more%20and%20how%20I%20can%20get%20started"> <i class="fab fa-whatsapp" style="color: green;font-size:20px;margin-right:5px"></i>Let\`s Chat</a>  </button></div>
                 </div>
                 <div class="slider">
                     <div class="flex items-center flex-nowrap gap-2 xl:gap-3 justify-center mt-9 xl:mt-10 company-list relative">
