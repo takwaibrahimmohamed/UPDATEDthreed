@@ -67,6 +67,28 @@ top: 8px;
       }
 
 }
+@media (max-width:780px){
+  @keyframes moveApear2{
+    0%{
+      top: -15px;
+    }
+    100%{
+      top: 12px;
+    }
+  }
+  @keyframes moveApear{
+    0%{
+  top: 2px;
+  
+    }
+  
+    100%{
+      top: -9px;
+      
+        }
+  
+  }
+}
 @media (max-width:760px){
   @keyframes moveApear2{
     0%{
@@ -137,7 +159,12 @@ margin: 10px auto;
 /* end heregenatic  */
 
 @media (max-width: 479px){
- 
+ .animationCircle{
+  display: none;
+ }
+ .animationCircle2{
+  display: none;
+ }
   .max-w-7xl.text-center{
     font-size: 17px;
     line-height: 1.5;
@@ -157,6 +184,8 @@ margin: 10px auto;
 {
   .title-ideas-lottie
 {
+  /* opacity: 0 !important; */
+  /* background-color: red; */
   top: 30% !important;
   width: 154px !important;
 }

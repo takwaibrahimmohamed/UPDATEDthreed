@@ -1,4 +1,8 @@
-  
+let title_span =document.querySelector(".nnnn")
+console.log(title_span)   
+
+
+
 let toggleBtn=document.querySelector(".toggleBtn")
 let hide_display=document.querySelectorAll(".hide_display")
 let case_page =document.querySelector(".case-page")
